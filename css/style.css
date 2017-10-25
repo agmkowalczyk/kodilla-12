@@ -9,4 +9,11 @@
 body {
   font-family: sans-serif; }
 
+.container {
+  text-align: center;
+  padding: 20px; }
+
+#joke {
+  margin-top: 20px; }
+
 /*# sourceMappingURL=style.css.map */
