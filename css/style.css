@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box; }
+
+.row::before, .row::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+body {
+  font-family: sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
