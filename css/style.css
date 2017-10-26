@@ -7,6 +7,21 @@
   display: table; }
 
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background: #00c7e8; }
+
+.newcountry {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff;
+  margin-bottom: 30px; }
+  .newcountry [class^="col-"] {
+    padding: 10px 20px; }
+    .newcountry [class^="col-"]:nth-child(2) {
+      font-weight: normal; }
+  .newcountry .row {
+    margin: 0; }
+    .newcountry .row:not(:first-child) {
+      border-top: 1px solid #aeaeae; }
 
 /*# sourceMappingURL=style.css.map */
