@@ -7,6 +7,32 @@
   display: table; }
 
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background: #337ab7;
+  color: #fff; }
+
+main {
+  text-align: center;
+  margin: 60px auto; }
+
+.box {
+  margin: 70px auto; }
+
+h3,
+h4 {
+  margin: 30px auto; }
+
+.btn {
+  width: 250px;
+  display: block;
+  margin: 20px auto;
+  background-color: #337ab7;
+  border-color: #fff; }
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #fff; }
+  .btn:focus {
+    background-color: #337ab7;
+    border-color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
