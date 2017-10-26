@@ -16,8 +16,10 @@ function searchCountries() {
 
 function showCountriesList(resp) {
 	countriesList.empty();
+	var allCountries = "";
+
   	resp.forEach(function(item) {
-  		var eachCountry = '<div class="newcountry">' +
+  		allCountries += '<div class="newcountry">' +
   			'<div class="row">' +
   			'<div class="col-md-12 bg-primary"><h3>' + item.name + '</h3></div></div>' +
   			'<div class="row">' +
@@ -27,9 +29,9 @@ function showCountriesList(resp) {
   			'<div class="row">' +
   			'<div class="col-md-4">Currency</div><div class="col-md-8">' + item.currencies + '</div></div>' +
   			'</div>';
-
-  		$(eachCountry).appendTo(countriesList);
-
+  		
         //$('<li>').text(item.name + item.capital + item.region + item.demonym + item.currencies).appendTo(countriesList);
   	});
+
+  	$(allCountries).appendTo(countriesList);
 }
